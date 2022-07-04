@@ -1,21 +1,39 @@
-# This week we will work with loops. For this week’s assignment, write a program that uses a while loop to determine
-# how long it takes for an investment to double at a given interest rate. The input will be an annualized interest
-# rate and the initial investment amount and the output is the number of years it takes an investment to double.
-# currency = "${:,.2f}". format(amount)
-# A=P(1+rt)
+def main():
+    # Welcome
+    print("==========================================================")
+    print("Welcome! Thank You for using FiberOne Installations.")
+    print("==========================================================")
+    # Enter Company_Name
+    naming = True
+    company_name = ""
+    while naming:
+        company_name = (input("Please enter your company name to begin \n"))
+        if company_name.isalnum():
+            print(company_name + ", Go ahead with your order!")
+            naming = False
+        else:
+            print("You must enter alpha-numeric characters only \n")
+        # Enter Cable_Length
+    shopping = True
+    while shopping:
+        cable_length = int(input("Please enter the amount of cable to be installed in feet \n"))
+        if cable_length <= 100:
+            print("Thank you", company_name, ",Your total expense is $", cable_length * 0.87)
+        elif 100 < cable_length <= 250:
+            print("Thank you", company_name, ",Your total expense is $", cable_length * 0.8)
+        elif 250 < cable_length <= 500:
+            print("Thank you", company_name, ",Your total expense is $", cable_length * 0.7)
+        elif cable_length > 500:
+            print("Thank you", company_name, ",Your total expense is $", cable_length * 0.5)
+        continue_purchase = input("Would you like to place another order Y/N \n")
+        while continue_purchase.lower() not in ("y", "n"):
+            continue_purchase = input("You must type Y/N \n")
+        if continue_purchase.lower() == "n":
+            break
+    print("==========================================================")
+    print("Thank you for using FiberOne Installations! ☺")
+    print("==========================================================")
 
-def banking():
-    print("Welcome to the MarginLine Banking Investment Calculator.")
-    principal = int(input("Please enter your initial investment amount: \n"))
-    rate = float(input("Please enter the desired annual interest: \n"))
-    time = 0
-    while principal < (principal * 2):
-        simple_interest = float(principal*(1+rate/100*time))
-        time += 1
-        if simple_interest == principal*2:
-            print("Your investment doubles at year", time)
-            print("Would you like to try again?")
 
-
-if __name__ == '__main__':
-    banking()
+# where the code starts
+main()
