@@ -15,20 +15,22 @@ from colorama import init, Fore
 
 init()
 
-base_url = "http://api.openweathe1rmap.org/data/2.5/weather?"
+base_url = "http://api.openweathermap.org/data/2.5/weather?"
 API_Key = '8cc6a6f1fe6a424800c9efb35fbd4150'
 print(Fore.BLUE + "This program establishes connection over the internet to display weather readings.")
 city = input("Please type the name of your desired city or zipcode to get the Weather: \n")
 url = base_url + "appid=" + API_Key + "&q=" + city
 response = requests.get(url).json()
 
-#fix this
+
+# fix this
 def connect():
     try:
         requests.get(base_url)
         print("Connection Successful!")
-    finally:
-        print("uh oh")
+    except Exception:
+        print("Error Connecting")
+        return connect()
 
 
 def temp_maker(kelvin):
