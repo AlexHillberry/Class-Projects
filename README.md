@@ -1,3 +1,8 @@
+---
+title: "About"
+navbar: false
+---
+
 # Alex Hillberry
 
 ## About Me
@@ -36,7 +41,7 @@ Hello, I'm Alex Hillberry, a passionate aspiring healthcare analyst and pharmacy
    _I have spent considerable focus on data science for my electives, reflecting my strong interest in leveraging data-driven insights for effective healthcare management._
 
 
-## [Projects]
+## Projects
 ### Investigative Study on Part D Drugs
 - **Description:** Focused on a public dataset from data.gov to inquire about potential pitfalls of Medicare Part D spending and how to improve them.
 
@@ -45,4 +50,7 @@ Hello, I'm Alex Hillberry, a passionate aspiring healthcare analyst and pharmacy
 ## Contact
 - Email: [AlexHillberry@gmail.com]
 - LinkedIn: [https://www.linkedin.com/in/alexander-hillberry-b7886918a/]
+
+  <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> <script> var x = document.getElementsByClassName("site-footer-credits"); setTimeout(() => { x[0].remove(); }, 10); </script>
+
 
