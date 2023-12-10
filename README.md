@@ -1,13 +1,13 @@
 # Alex Hillberry
 
 ## About Me
-Hello, I'm [Alex Hillberry], a passionate [aspiring healthcare analyst and pharmacy subject matter expert] with working knowledge of Python, R, SQL, and Excel]. 
+Hello, I'm Alex Hillberry, a passionate aspiring healthcare analyst and pharmacy subject matter expert with working knowledge of Python, R, SQL, and Excel. 
 
 ## Experience
-### [Walmart] - [Pharmacy Technician]
-- Date Range: [10/10/2013] - [Present]
-- Responsibilities: [## Experience
-### [Walmart] - [Pharmacy Technician]
+### Walmart - Pharmacy Technician
+- Date Range: 10/10/2013 - Present
+- Responsibilities: ## Experience
+### Walmart - Pharmacy Technician
 - **Date Range:** 10/10/2013 - Present
 - **Responsibilities:**
   - **Immunization Management:**
@@ -36,7 +36,7 @@ Hello, I'm [Alex Hillberry], a passionate [aspiring healthcare analyst and pharm
    _I have spent considerable focus on data science for my electives, reflecting my strong interest in leveraging data-driven insights for effective healthcare management._
 
 
-## Projects
+## [Projects]
 ### Investigative Study on Part D Drugs
 - **Description:** Focused on a public dataset from data.gov to inquire about potential pitfalls of Medicare Part D spending and how to improve them.
 
