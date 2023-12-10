@@ -1,8 +1,3 @@
----
-title: "About"
-navbar: false
----
-
 # Alex Hillberry
 
 ## About Me
